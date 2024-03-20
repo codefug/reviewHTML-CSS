@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.headContainer{
+  padding-left:48px;
+  border-bottom: 1px solid black;
+  font-size: 52px;
+}
+
+#logo{
+  width:104px;
+  margin-top:68px;
+}
+
+#menu{
+  padding:24px 0px;
+  color: #000000;
+  font-weight: 700;
+  font-size:22px;
+}
+
+.article{
+  margin:0px 48px 48px 48px;
+}
+
+.articleTitle{
+  margin-top:40px;
+  color: #000000;
+  font-weight: 700;
+  font-size:24px;
+}
+
+.articleDate{
+  color: #000000;
+  font-size:16px;
+}
+
+#carousel{
+  white-space: nowrap;
+  overflow: auto;
+  margin:24px -48px 24px -48px;
+}
+
+#carousel img{
+  height: 194px;
+}
+
+#viewButton{
+  display:inline-block;
+  padding:12px 24px;
+  background-color: black;
+  color:white;
+  font-size: 16px;
+}
+
+#spaceTitle{
+  margin-top:72px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+#spaceContent{
+  font-size: 16px;
+  color:black;
+  margin-block: 16px 24px;
+}
+
+#spaceImage{
+  width:100%;
+}

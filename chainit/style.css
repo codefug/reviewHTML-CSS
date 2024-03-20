@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, "Noto Sans KR", sans-serif;
+  margin: 0;
+}
+
+#headercontent,
+#footercontent,
+.content {
+  width: 720px;
+  margin-inline: auto;
+}
+
+#header {
+  color: white;
+  background-image: url(./bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header > h1 {
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 40px;
+  padding-top: 12px;
+  margin-top:0px;
+  line-height: 30px;
+}
+
+#logoHighlight {
+  font-weight: 400;
+}
+
+#headerfirst {
+  margin-top: 80px;
+  margin-bottom: 12px;
+  color: #8287a4;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#headersecond {
+  color: white;
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+#headerthird {
+  font-size: 14px;
+  font-weight: 400;
+  color: #8287a4;
+  padding-bottom: 280px;
+}
+
+.content{
+  text-align: center;
+}
+
+.contentdescription{
+  text-align: left;
+}
+
+.subject {
+  padding-top: 74px;
+  padding-bottom: 42px;
+  color: #161346;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.content img {
+  width: 100%;
+  border-radius: 24px;
+  margin-bottom: 32px;
+}
+
+.contentContainer{
+  padding:1px;
+}
+
+.contentContainer:nth-child(2n-1) {
+  background-color: #f1f4fa;
+}
+
+.contentbutton{
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #413c91;
+  border-radius: 8px;
+  padding: 16px 32px;
+  display: inline-block;
+  margin: 32px 64px;
+}
+
+.contentbutton:hover,
+#footerbutton:hover{
+  cursor:pointer;
+  background-color: #817ae6
+}
+
+#footer {
+  background-color: #161346;
+  color: white;
+  text-align: center;
+}
+
+#footerTitle {
+  padding-top: 40px;
+  padding-bottom: 8px;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+#footerdescription {
+  color: #8287a4;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+#footerbutton {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #413c91;
+  border-radius: 9999px;
+  padding: 16px 32px;
+  margin-bottom: 32px;
+  display: inline-block;
+}
+
+#footercontact {
+  color: #d9d9d9;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  padding-block:32px;
+}

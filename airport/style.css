@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+h1,h2{
+  margin:0;
+}
+
+#headerContainer {
+  background-color: #11172b;
+}
+
+#header {
+  color: #ffffff;
+  width: 640px;
+  margin-inline: auto;
+  padding-block: 12px;
+}
+
+#header img {
+  height: 24px;
+  margin-right:12px;
+}
+
+#header h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#header span {
+  font-weight: 300;
+  font-family: "Titillium Web";
+}
+
+#main{
+  padding-top:40px;
+}
+
+.content{
+  width:640px;
+  margin-inline:auto;
+  margin-block:20px;
+  padding:24px 32px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.content:nth-child(1){
+  margin-block:0px 20px;
+  background-color: #ebeff8;
+}
+#line{
+  border-block:1px dotted #b6bfd3;
+  width:640px;
+  margin-inline:auto;
+}
+
+.contentheader>h1{
+  font-size:16px;
+  color:#b3bdd5;
+}
+
+.contentheader>h1>img{
+  height:12px;
+  margin-right:8px
+}
+
+.content h2{
+  margin-block:8px 24px;
+  font-size:32px;
+  font-family: 'Titillium Web';
+  color:black;
+  font-weight:900;
+}
+
+.date{
+  display: inline-block;
+  padding:8px 24px;
+  background-color: white;
+  border-radius: 4px;
+  font-size:16px;
+  font-weight:800;
+  margin-bottom: 16px;
+}
+
+.description{
+  padding-bottom:24px;
+  font-size: 12px;
+  color:#b2bdd5;
+}
+
+.maincontent{
+  width:640px;
+  margin-inline:auto;
+  margin-block:20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding-block:8px 24px;
+}
+
+.maincontent>*{
+  padding-inline:24px;
+}
+
+
+.maincontentheader{
+  font-family: 'Titillium Web';
+  color:#16bf97;
+  padding-bottom:8px;
+  border-bottom: 1px dotted #dbf1ec;
+}
+
+.maincontentheader>h1{
+  font-size:12px;
+  font-weight: 700;
+}
+
+.departarrive{
+  margin: 26px 0px 4px;
+  color:#b3bdd5;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.contentmain>*{
+  margin-bottom:4px;
+}
+
+.flighttime{
+  font-size:16px;
+  font-weight:700;
+  color:#1a345e;
+}
+
+.flighttime .flightimage{
+  margin-inline:10px;
+  height: 16px;
+}
+
+.flightname{
+  color:#b3bdd5;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.flightnamedescription{
+  font-size:16px;
+  color:#0b1f66;
+  font-weight:500;
+}
+
+.mainfunction{
+  text-align: right;
+}
+
+.mainfunction>a{
+  display:inline-block;
+  margin-right:24px;
+  text-decoration: none;
+  color:black;
+}
+
+.mainfunction>a:hover{
+  color:#b3bdd5;
+}
+
+
+.mainfunction>a:last-child{
+  margin:0px;
+}
+
+#closed{
+  color:#dce0e8;
+  cursor:default;
+}
